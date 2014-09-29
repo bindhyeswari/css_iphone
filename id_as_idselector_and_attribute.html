@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="index.css"/>
+    <style>
+
+
+        div#sdsa {
+            /* 0 0 1 1  */
+            color: yellow;
+        }
+
+        div.sdsa {
+            /* 0 0 1 1  */
+            color: blue;
+        }
+
+        div[id='sdsa'] {
+            /* 0 0 1 1  */
+            color: red;
+        }
+
+        div { /* 0 0 0 1 */
+            color: green;
+        }
+
+        div[id='data'] div.sdsa {/* 0 0 2 2 */
+            color: pink;
+        }
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+
+    <div id="data">
+        <div id="sdsa" class="sdsa">
+            sdsa
+        </div>
+    </div>
+
+
+
+</body>
+</html>
