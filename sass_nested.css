@@ -1,0 +1,24 @@
+body {
+  padding: 0;
+  margin: 0; }
+
+nav {
+  margin: 0;
+  padding: 0;
+  background-color: #eee;
+  width: 100%;
+  overflow: auto; }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; }
+  nav li {
+    float: left;
+    display: inline-block;
+    padding: 0.2em;
+    color: #aaa;
+    background-color: black; }
+  nav.li {
+    background-color: red; }
+
+/*# sourceMappingURL=sass_nested.css.map */
